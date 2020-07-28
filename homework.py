@@ -24,7 +24,7 @@ class Calculator:
         rest = self.limit - self.get_today_stats()
         return rest
 
-    def week_stats(self):
+    def get_week_stats(self):
     #""""что делает каждый метод"""
         week_stats = 0
         today_today = dt.datetime.today()
